@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LeetCode\\LeetCodes\\LeetCodes\\LeetCodes.csproj",
+      "projectUniqueName": "D:\\Hano\\LeetCode\\LeetCodes\\LeetCodes\\LeetCodes.csproj",
       "projectName": "LeetCodes",
-      "projectPath": "D:\\LeetCode\\LeetCodes\\LeetCodes\\LeetCodes.csproj",
+      "projectPath": "D:\\Hano\\LeetCode\\LeetCodes\\LeetCodes\\LeetCodes.csproj",
       "packagesPath": "C:\\Users\\hanif\\.nuget\\packages\\",
-      "outputPath": "D:\\LeetCode\\LeetCodes\\LeetCodes\\obj\\",
+      "outputPath": "D:\\Hano\\LeetCode\\LeetCodes\\LeetCodes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
