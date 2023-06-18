@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LeetCodes
+namespace LeetCodes.Easy
 {
     class RomanToInteger
     {
-
         public int RomanToInt(string s)
         {
             var romanValues = new Dictionary<char, int>()

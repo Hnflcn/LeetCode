@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeetCodes
+namespace LeetCodes.Easy
 {
     class MainClass
     {
-
-
         static void Main(string[] args)
         {
             //MainForLongestCommonPrefix();
             //MainForRomanToInteger();
-            MainForValidParantheses();
+            //MainForValidParantheses();
+            MainForMergeTwoSortedLists();
         }
 
 
@@ -42,5 +41,12 @@ namespace LeetCodes
 
             //3.225.783
         }
+
+        private static void MainForMergeTwoSortedLists()
+        {
+            MergeTwoSortedLists solution = new MergeTwoSortedLists();
+
+        }
+
     }
 }
