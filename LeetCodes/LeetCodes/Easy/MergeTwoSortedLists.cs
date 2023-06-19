@@ -37,9 +37,19 @@ namespace LeetCodes.Easy
 
             return listDum.next;
          }
+    }
 
-
-
+    public static class PrintNode
+    {
+        public static void PrintList(ListNode head)
+        {
+            ListNode current = head;
+            while (current != null)
+            {
+                Console.Write(current.val + " ");
+                current = current.next;
+            }
+        }
     }
 
 

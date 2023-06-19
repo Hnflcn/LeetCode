@@ -46,6 +46,11 @@ namespace LeetCodes.Easy
         {
             MergeTwoSortedLists solution = new MergeTwoSortedLists();
 
+            ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+
+            var mergeList = solution.MergeTwoLists(list1, list2);
+            PrintNode.PrintList(mergeList);
         }
 
     }
