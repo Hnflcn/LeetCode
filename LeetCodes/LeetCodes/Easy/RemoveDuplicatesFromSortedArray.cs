@@ -7,16 +7,20 @@ namespace LeetCodes.Easy
 {
     class RemoveDuplicatesFromSortedArray
     {
-        public int[] RemoveDuplicates(int[] nums)
-        {
-            int k = 0; 
-            foreach (int num in nums.Distinct())
-            {
-                nums[k] = num;
-                k++;
-            }
+         public int[] RemoveDuplicates(int[] nums)
+         {
+             return nums.Distinct().ToArray();
+         }
 
-            return nums.Take(k).ToArray();
-        }
+       // public int RemoveDuplicates(int[] nums)
+       // {
+       //     int k = 0; 
+       //     foreach (int num in nums.Distinct())
+       //     {
+       //         nums[k] = num;
+       //         k++;
+       //     }
+       //     return k;
+       // }
     }
 }

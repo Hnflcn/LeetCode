@@ -62,6 +62,7 @@ namespace LeetCodes.Easy
 
             int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
             int[] result = solution.RemoveDuplicates(nums);
+         //   int result = solution.RemoveDuplicates(nums);
             Console.WriteLine(string.Join(", ", result));
         }
     }
