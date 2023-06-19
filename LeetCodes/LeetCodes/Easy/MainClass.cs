@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace LeetCodes.Easy
@@ -11,7 +12,8 @@ namespace LeetCodes.Easy
             //MainForLongestCommonPrefix();
             //MainForRomanToInteger();
             //MainForValidParantheses();
-            MainForMergeTwoSortedLists();
+            //MainForMergeTwoSortedLists();
+            MainForRemoveDuplicatesFromSortedArray();
         }
 
 
@@ -51,7 +53,16 @@ namespace LeetCodes.Easy
 
             var mergeList = solution.MergeTwoLists(list1, list2);
             PrintNode.PrintList(mergeList);
+
         }
 
+        private static void MainForRemoveDuplicatesFromSortedArray()
+        {
+            RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
+
+            int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            int[] result = solution.RemoveDuplicates(nums);
+            Console.WriteLine(string.Join(", ", result));
+        }
     }
 }
