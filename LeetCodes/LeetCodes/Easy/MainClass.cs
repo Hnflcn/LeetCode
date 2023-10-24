@@ -13,7 +13,9 @@ namespace LeetCodes.Easy
             //MainForRomanToInteger();
             //MainForValidParantheses();
             //MainForMergeTwoSortedLists();
-            MainForRemoveDuplicatesFromSortedArray();
+            //MainForRemoveDuplicatesFromSortedArray();
+            //MainForRemoveElement();
+            MainForPalindromeNumber();
         }
 
 
@@ -64,6 +66,31 @@ namespace LeetCodes.Easy
             int[] result = solution.RemoveDuplicates(nums);
          //   int result = solution.RemoveDuplicates(nums);
             Console.WriteLine(string.Join(", ", result));
+        }
+
+        private static void MainForRemoveElement()
+        {
+            RemoveElement solution = new RemoveElement();
+            
+
+            int[] nums1 = { 3, 2, 2, 3 };
+            int[] nums2 = { 0, 1, 2, 2, 3, 0, 4, 2 };
+            var result = solution.RmvElement(nums1, 3);
+            var result2 = solution.RmvElement(nums2, 2);
+            Console.WriteLine(result);
+            Console.WriteLine(result2);
+        }
+
+        private static void MainForPalindromeNumber()
+        {
+            PalindromeNumber solution = new PalindromeNumber();
+            var value1 = 121;
+            var value2 = -121;
+            var value3 = 10;
+
+            Console.WriteLine(solution.IsPalindrome(value1));
+            Console.WriteLine(solution.IsPalindrome(value2));
+            Console.WriteLine(solution.IsPalindrome(value3));
         }
     }
 }
